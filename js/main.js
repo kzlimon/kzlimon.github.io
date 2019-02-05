@@ -21,16 +21,16 @@ function animate(){
 if(logo_status === 0) {
 (function($j){
 
-$j("img.img-fluid").attr("src","https://kzlimon.me/src/logo1.png")
-$j("img.img-fluid").attr("src","https://kzlimon.me/src/logo1.png")
+$j("img#main-logo").attr("src","https://kzlimon.me/src/logo1.png")
+$j("img#main-logo").attr("src","https://kzlimon.me/src/logo1.png")
 
  })(jQuery);
 logo_status = 1;
 } else {
 (function($j){
 
-$j("img.img-fluid").attr("src","https://kzlimon.me/src/logo2.png")
-$j("img.img-fluid").attr("src","https://kzlimon.me/src/logo2.png")
+$j("img#main-logo").attr("src","https://kzlimon.me/src/logo2.png")
+$j("img#main-logo").attr("src","https://kzlimon.me/src/logo2.png")
 
  })(jQuery);
 logo_status = 0;
